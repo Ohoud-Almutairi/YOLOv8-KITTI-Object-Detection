@@ -31,22 +31,6 @@ We use the **KITTI Vision Benchmark Suite**, a popular dataset for autonomous dr
 
 ---
 
-## 🚀 How to Run
-
-> The notebook is uploaded on Google Colab and linked in this repository.
-
-1. **Open the Notebook:**
-   - [`CS464-Ohoud-Almutairi-371.ipynb`](CS464-Ohoud-Almutairi-371.ipynb)
-
-2. **Steps inside Colab:**
-   - Clone YOLOv8 repo
-   - Install dependencies
-   - Upload or mount your KITTI dataset
-   - Train the model using your config
-   - Run evaluation and visualize predictions
-
----
-
 ## 📊 Results
 
 ### 📈 mAP and Metrics
