@@ -1,4 +1,4 @@
-# 🚗 Autonomous Driving Object Detection using YOLOv8 and KITTI Dataset
+# 🚘 Autonomous Driving Object Detection using YOLOv8 and KITTI Dataset
 
 This project applies the YOLOv8 model to detect various objects from autonomous driving scenes using the KITTI dataset. The goal is to train a deep learning model that can recognize vehicles, pedestrians, cyclists, and more in real-time scenarios.
 
@@ -28,6 +28,18 @@ We use the **KITTI Vision Benchmark Suite**, a popular dataset for autonomous dr
 - **Training:** Fine-tuned on the KITTI dataset
 - **Input:** RGB images
 - **Output:** Bounding boxes with object class and confidence score
+
+---
+
+## 🧪 Features
+
+- Downloads and unpacks KITTI dataset
+- Converts KITTI labels into YOLO format
+- Splits data into training/validation
+- Creates YOLO config YAML file
+- Trains a YOLOv8 model with custom settings
+- Evaluates the model using confusion matrix and results plot
+- Runs prediction on test images and displays output
 
 ---
 
